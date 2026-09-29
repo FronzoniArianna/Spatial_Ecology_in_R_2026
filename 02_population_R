@@ -1,0 +1,9 @@
+#R code for population density 
+#Installing packages from outside 
+intsall.packages("spatstat") #allthepackagesfournished #take the spatstat and put it in R 
+
+#using the package (s) #function library 
+library 
+#everytime you exit the castle the libraries are protecting the packages 
+
+library (spatstat)

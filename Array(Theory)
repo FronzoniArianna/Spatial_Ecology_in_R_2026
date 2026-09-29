@@ -1,0 +1,39 @@
+# Script for using R
+
+# operation
+2 + 3 
+
+# an object
+samuele <- 2 + 3
+
+# another object
+gemma <- 4 + 6
+
+# different ojects
+samuele + gemma
+samuele * gemma # instead of writing (2+3) * (4+6)
+samuele ^ gemma
+
+tma <- 5 * 4
+
+tma + samuele + gemma # 20 + 5 + 10
+
+
+matteo <- 5,10,20,50,80   #an array is a set of elements: this is the array of mammal species 
+> # we are using the function c()
+> matteo <- c(5,10,20,50,80)   #an array is a set of elements: this is the array of mammal species 
+> #obj + assign + function + array (elements)
+sum (5,10) 
+sum      (5,10)  #adding a space it works anyway # I HATE THIS!! 
+
+#how many people would die due to a disease sampling in the same place were matteo was counting animals 
+elisa <- c(100, 80, 50, 20, 10) #an array of human deaths due to a disease
+#graphical plot putting of X = number of species found by mattero, Y = number of death found by elisa
+plot (matteo,elisa)
+#there's an exponential decrease of human deaths while there's a increase of number of animals (no correll)
+#let's prettyfy our plot - the symbol in R is called point.character, every single symbol is stored inside R with a label (closed black circle, code number 19) 
+#anacronym used: pch = 19, point caracter and the number of symbol I want to use 
+plot(matteo,elisa,pch=19)
+
+# GLOSSARY Methods Ecol Evol - commit: saving results and scripts - button: commit changes, or command S for Mac 
+
